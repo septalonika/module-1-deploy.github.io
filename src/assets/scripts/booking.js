@@ -28,7 +28,7 @@ console.log(paramValue);
 
 const imgElement = document.getElementById("dynamicImg");
 
-imgElement.src = `./src/assets/images/${paramValue}.jpg`; 
+imgElement.src = `../assets/images/${paramValue}.jpg`; 
 
 const roomName = document.getElementById("roomName");
 
