@@ -28,7 +28,7 @@ console.log(paramValue);
 
 const imgElement = document.getElementById("dynamicImg");
 
-imgElement.src = `/hotelolet/src/assets/images/${paramValue}.jpg`; 
+imgElement.src = `/src/assets/images/${paramValue}.jpg`; 
 
 const roomName = document.getElementById("roomName");
 
